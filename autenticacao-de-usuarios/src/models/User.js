@@ -19,7 +19,9 @@ const UserSchema = new Schema({
     deleted: {
         type: Boolean,
         default:false
-    }
+    },
+    token: String,
+    expiration: Date
 }, {
     timestamps:true
 });
@@ -36,7 +38,6 @@ UserSchema.methods.show = function() {
         email:this.email,
          deleted:this.deleted
     }
-
 }
 
 export default model('User', UserSchema)
