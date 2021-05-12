@@ -13,7 +13,7 @@
     "express-handlebars": "^4.0.4",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.20",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "nodemailer-express-handlebars": "^4.0.0"
   },
   "devDependencies": {
